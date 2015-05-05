@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_bg"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical">
+
+   <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#2aa468"
+        android:gravity="center_vertical"
+        android:paddingLeft="15dp"
+        android:text="@string/hello_world"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:visibility="visible" />
+
+</RelativeLayout>

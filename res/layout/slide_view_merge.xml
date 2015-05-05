@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/view_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/holderDelect"
+            android:layout_width="120dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/darkkhaki"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/del_icon_normal"
+                android:gravity="center"
+                android:text="@string/del"
+                android:textColor="@color/floralwhite" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/holderCancle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/rosybrown"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/del_icon_normal"
+                android:gravity="center"
+                android:text="@string/cal"
+                android:textColor="@color/floralwhite" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</merge>
